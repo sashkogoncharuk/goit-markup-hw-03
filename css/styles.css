@@ -361,7 +361,7 @@ ul {
 }
 
 .portfolio-list .item {
-  width: 370px;
+  flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
